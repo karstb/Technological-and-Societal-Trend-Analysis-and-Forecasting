@@ -1,0 +1,1 @@
+# Technological-and-Societal-Trend-Analysis-and-Forecasting
