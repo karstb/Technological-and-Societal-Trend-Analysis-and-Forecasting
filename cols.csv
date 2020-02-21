@@ -1,0 +1,11 @@
+category,startstring,endstring,endstring_alt
+abstract_title,Title:,Abstract ID:,Submitted By:
+abstract_id,Abstract ID:,Submitted By:,Title:
+submitted_by,Submitted By:,Source:,Abstract ID:
+source,Source:,Source Author:,Source Author:
+source_author,Source Author:,Source Date:,Source Date:
+source_date,Source Date:,Source Page:,Source Page:
+source_url,Source URL:,_________,_________
+overview,Overview:,Summary:,Summary:
+summary,Summary:,Implications:,Implications:
+implications,Implications:,Consider implications,Consider implications
