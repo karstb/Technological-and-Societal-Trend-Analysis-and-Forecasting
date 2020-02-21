@@ -4,7 +4,7 @@ The scripts provided in the repository ingest the pdf document containing the 10
 ## Usage
 First, use `convert all pdfs to dfs.ipynb` to ingest the pdf files containing the articles (fig. 1). The output is a pandas dataframe with one row for each article. Columns are *title*, *author*, *source*, *article body*, *date* (or similar) and so on.<br>
 Then, use `Cluster abstracts with doc2vec.ipynb` to cluster the articles. The output is a list of clusters (fig. 2). Each cluster has a primitive name made up of the most frequent words in the cluster. Below the cluster name, the *titles* of the articles are listed. Using the rand index, the clustering done by doc2vec can be compared to the ground truth human clustering (if provided).<br>
-<img src="article.jpg" style="border:1px solid black">
+<img src="article.jpg" style="border:1px solid black"><br>
 Fig. 1: Screenshot of an example article. Each pdf contain about 100 such articles.
-<img src="output.jpg" style="border:1px solid black">
+<img src="output.jpg" style="border:1px solid black"><br>
 Fig. 2: Excerpt from an example list of clusters. The number of clusters or the minimum number of articles per cluster can be adjusted.
